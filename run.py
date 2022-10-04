@@ -62,7 +62,7 @@ def main_screen() -> str:
     game
     """
     time.sleep(1)
-    print(COL.BLUE + "Pick an option to continue...")
+    print(Col.BLUE + "Pick an option to continue...")
     continue_options = "1). View rules of game\n2). Play Game\n"
     continue_options_selected = input(continue_options)
     seperate_lines()
@@ -222,4 +222,22 @@ def show_word(pickedLetters):
             print(" ", end=" ")
         counter += 1
     return pickedLetters
+
+
+def lines():
+    """
+    Shows the correct word
+    """
+    print("\r")
+    for char in random_word:
+        print("\u203E", end=" ")
+
+
+def check_guessed_word(guess, word):
+    """
+    Check for correctly guessed word
+    """
+    if guess in word:
+        return True
+    return False
 
