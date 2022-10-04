@@ -4,6 +4,16 @@ import random
 from colors import Color as Col
 
 
+MAX_TURNS = 10
+game_running = True
+word_bank = ["constitutional", "river", "president", "avenue", "game",
+             "developer", "engineer", "mathematics", "gun", "robbery",
+             "supplementary", "scene", "tree", "conscious", "school",
+             "sports", "football", "wrestling", "dangerous", "motorsport"
+             "jesus", "plastic", "therapy", "love", "professor", "ball",
+             "negligence", "discrimination", "representative", "glide"]
+
+
 def game_logo():
     """
     Displays Game Title
@@ -104,7 +114,7 @@ def start_hangman() -> str:
 
     if answered == "1" or answered == "y":
         game_logo()
-    
+
     elif answered == "2" or answered == "n":
         game_logo()
 
