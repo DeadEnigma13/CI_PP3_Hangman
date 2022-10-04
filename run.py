@@ -31,3 +31,27 @@ def game_logo():
     print(" ")
     print(" ")
     time.sleep(1)
+
+
+def seperate_lines():
+    """
+    Print '-' lines to seperate messages
+    """
+    print(" ")
+    print("- "*30)
+    print(" ")
+
+
+def main_screen() -> str:
+    """
+    The game will load two possible options for the
+    user to select from, view game rules or start
+    game
+    """
+    time.sleep(1)
+    print(COL.BLUE + "Pick an option to continue...")
+    continue_options = "1). View rules of game\n2). Play Game\n"
+    continue_options_selected = input(continue_options)
+    seperate_lines()
+
+    # Confirm if answer is either 1 or 2
