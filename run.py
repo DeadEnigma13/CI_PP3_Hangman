@@ -85,4 +85,29 @@ def rules():
     main_screen()
 
 
+def start_hangman() -> str:
+    """
+    The game will check if user has played before
+    """
+    time.sleep(1)
+    print(Col.GREEN + "Have you played this game before?")
+    answer = "1). Yes \n2). No\n"
+    answered = input(answer)
+    seperate_lines()
+
+    # Confirm if answer is either Yes or No
+    while answered not in ("1", "y", "2", "n"):
+        print(Col.CYAN + "Please select one of the options shown:")
+        answered = input(answer)
+
+        seperate_lines()
+
+    if answered == "1" or answered == "y":
+        game_logo()
+    
+    elif answered == "2" or answered == "n":
+        game_logo()
+
+    return answered
+
 
