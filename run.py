@@ -55,3 +55,34 @@ def main_screen() -> str:
     seperate_lines()
 
     # Confirm if answer is either 1 or 2
+    while continue_options_selected not in ("1", "2"):
+        print(Col.YELLOW + "Please choose option one or 2 to move on:")
+        continue_options_selected = input(continue_options)
+        seperate_lines()
+
+    if continue_options_selected == "1":
+       game_logo()
+       rules()
+
+    elif  continue_options_selected == "2":
+        start_hangman()
+
+    return continue_options_selected
+
+
+def rules():
+    """
+    Display rules of the game which
+    user can exit by pressing any key
+    """
+    print(Col.RED + "Game Rules:")
+    print("The rules of the game are simple, a random word will be " +
+        "generated simply type in any letter to guess the word")
+    time.sleep(1)
+    print(" ")
+    seperate_lines()
+    input("Press any key to exit...\n")
+    main_screen()
+
+
+
