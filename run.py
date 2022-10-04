@@ -241,3 +241,15 @@ def check_guessed_word(guess, word):
         return True
     return False
 
+
+def verify_input(text, valid_values_list):
+    input_is_correct = False
+    while input_is_correct is False:
+        input_value = input(text)
+        if input_value.lower() in valid_values_list:
+            input_is_correct = True
+        else:
+            print(f"Please enter a correct option: {str(valid_values_list}")
+    return input_value
+
+
