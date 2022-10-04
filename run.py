@@ -205,3 +205,21 @@ def show_hangman(wrong):
         print("/|\ |")
         print("/ \ |")
         print("   ___")
+
+
+def show_word(pickedLetters):
+    """
+    Display the already picked letters and how many
+    guesses left
+    """
+    counter = 0
+    correct_letters = 0
+    for char in random_word:
+        if (char in pickedLetters):
+            print(random_word[counter].upper(), end=" ")
+            correct_letters += 1
+        else: 
+            print(" ", end=" ")
+        counter += 1
+    return pickedLetters
+
