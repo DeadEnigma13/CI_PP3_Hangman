@@ -249,7 +249,7 @@ def verify_input(text, valid_values_list):
         if input_value.lower() in valid_values_list:
             input_is_correct = True
         else:
-            print(f"Please enter a correct option: {str(valid_values_list}")
+            print(f"Please enter a correct option: {str(valid_values_list)}")
     return input_value
 
 
