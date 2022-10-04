@@ -13,6 +13,9 @@ word_bank = ["constitutional", "river", "president", "avenue", "game",
              "jesus", "plastic", "therapy", "love", "professor", "ball",
              "negligence", "discrimination", "representative", "glide"]
 
+""" 
+Choose a random word
+"""
 
 def game_logo():
     """
@@ -121,3 +124,84 @@ def start_hangman() -> str:
     return answered
 
 
+def show_hangman(wrong):
+    """
+    Display hangman when wrong guesses are made
+    """
+    if (wrong == 0):
+        print("\n")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+        print(" ")
+    elif(wrong == 1):
+        print("\n")
+        print("    |")
+        print("    |")
+        print("    |")
+        print("    |")
+        print(" ")
+    elif(wrong == 2):
+        print("\n")
+        print("    |")
+        print("    |")
+        print("    |")
+        print("    |")
+        print("   ___")
+    elif(wrong == 3):
+        print("\n+---+")
+        print("    |")
+        print("    |")
+        print("    |")
+        print("    |")
+        print("   ___")
+    elif(wrong == 4):
+        print("\n+---+")
+        print("|   |")
+        print("    |")
+        print("    |")
+        print("    |")
+        print("   ___")
+    elif(wrong == 5):
+        print("\n+---+")
+        print(" |  |")
+        print(" O  |")
+        print("    |")
+        print("    |")
+        print("   ___")
+    elif(wrong == 6):
+        print("\n+---+")
+        print(" |  |")
+        print(" O  |")
+        print(" |  |")
+        print("    |")
+        print("   ___")
+    elif(wrong == 7):
+        print("\n+---+")
+        print(" |  |")
+        print(" O  |")
+        print("/|  |")
+        print("    |")
+        print("   ___")
+    elif(wrong == 8):
+        print("\n+---+")
+        print(" |  |")
+        print(" O  |")
+        print("/|\ |")
+        print("    |")
+        print("   ___")
+    elif(wrong == 9):
+        print("\n+---+")
+        print(" |  |")
+        print(" O  |")
+        print("/|\ |")
+        print("/   |")
+        print("   ___")
+    elif(wrong == 10):
+        print("\n+---+")
+        print(" |  |")
+        print(" O  |")
+        print("/|\ |")
+        print("/ \ |")
+        print("   ___")
