@@ -309,4 +309,7 @@ If _name_ == "__main__":
             game_running = True
         else:
             game_running = False
-    
+    """
+    Game ending message
+    """
+    print("You selected no, game over! Hope you play again soon")
