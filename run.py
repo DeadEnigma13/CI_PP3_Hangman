@@ -75,8 +75,8 @@ def main_screen() -> str:
         seperate_lines()
 
     if continue_options_selected == "1":
-       game_logo()
-       rules()
+        game_logo()
+        rules()
 
     elif continue_options_selected == "2":
         start_hangman()
@@ -253,33 +253,35 @@ def verify_input(text, valid_values_list):
             print(f"Please enter a correct option: {str(valid_values_list)}")
     return input_value
 
+
 """
 Running the game
 """
-If _name_ == "__main__":
+if __name__ == "__main__":
     while (game_running):
         random_word = random.choice(word_bank)
         show_hangman(0)
         for x in random_word:
             print("_ ", end="")
-            word_length = len(random_word)
-            times_wrong = 0
-            guess_index = 0
-            letters_guessed = []
-            letters_right = 0
-            carry_on_playing = "no"
+        word_length = len(random_word)
+        times_wrong = 0
+        guess_index = 0
+        letters_guessed = []
+        letters_right = 0
+        carry_on_playing = "no"
 
-            while (times_wrong != MAX_TURNS and
-            letters_right != word_length):
+        while (times_wrong != MAX_TURNS and
+               letters_right != word_length):
 
             """
             Show users possible letter inputs
             """
             show_letters_guessed = verify_input("\nPlease guess a letter: ",
-                                           ["a", "b", "c", "d", "e", "f", "g",
-                                            "h", "i", "j", "k", "l", "m", "n",
-                                            "o", "p", "q", "r", "s", "t", "u",
-                                            "v", "w", "x", "y", "z"])
+                                                ["a", "b", "c", "d", "e", "f",
+                                                 "g", "h", "i", "j", "k", "l",
+                                                 "m", "n", "o", "p", "q", "r",
+                                                 "s", "t", "u", "v", "w", "x",
+                                                 "y", "z"])
             """
             Display the users guesses if correct or false,
             upon failure, display the correct word to user.
@@ -291,20 +293,20 @@ If _name_ == "__main__":
             lines()
             show_hangman(times_wrong)
             print("Guesses left = {}".format(MAX_TURNS -
-            times_wrong))
+                                             times_wrong))
             print("Correct guess was = {}".format(letters_right))
             if letters_right >= len(random_word):
                 print("\n\n Congratulations, You've Won!! \n\n")
                 break
             elif times_wrong >= MAX_TURNS:
                 print("\n\n You have lost! The word was '" + random_word +
-                "', better luck next time!\n")
+                      "', better luck next time!\n")
 
         """
         Allow user to restart game or start with a new word
         """
-        play_again = ask_input("\n Do you want to play again? (Y/N) ",
-                               ['y', 'yes', 'yeah', 'n', 'no', 'nope'])
+        play_again = verify_input("\n Do you want to play again? (Y/N) ",
+                                  ['y', 'yes', 'yeah', 'n', 'no', 'nope'])
         if play_again in ['y', 'yes', 'yeah']:
             game_running = True
         else:
