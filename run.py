@@ -13,9 +13,10 @@ word_bank = ["constitutional", "river", "president", "avenue", "game",
              "jesus", "plastic", "therapy", "love", "professor", "ball",
              "negligence", "discrimination", "representative", "glide"]
 
-""" 
+"""
 Choose a random word
 """
+
 
 def game_logo():
     """
@@ -77,7 +78,7 @@ def main_screen() -> str:
        game_logo()
        rules()
 
-    elif  continue_options_selected == "2":
+    elif continue_options_selected == "2":
         start_hangman()
 
     return continue_options_selected
@@ -90,7 +91,7 @@ def rules():
     """
     print(Col.RED + "Game Rules:")
     print("The rules of the game are simple, a random word will be " +
-        "generated simply type in any letter to guess the word")
+          "generated simply type in any letter to guess the word")
     time.sleep(1)
     print(" ")
     seperate_lines()
@@ -135,70 +136,70 @@ def show_hangman(wrong):
         print(" ")
         print(" ")
         print(" ")
-    elif(wrong == 1):
+    elif (wrong == 1):
         print("\n")
         print("    |")
         print("    |")
         print("    |")
         print("    |")
         print(" ")
-    elif(wrong == 2):
+    elif (wrong == 2):
         print("\n")
         print("    |")
         print("    |")
         print("    |")
         print("    |")
         print("   ___")
-    elif(wrong == 3):
+    elif (wrong == 3):
         print("\n+---+")
         print("    |")
         print("    |")
         print("    |")
         print("    |")
         print("   ___")
-    elif(wrong == 4):
+    elif (wrong == 4):
         print("\n+---+")
         print("|   |")
         print("    |")
         print("    |")
         print("    |")
         print("   ___")
-    elif(wrong == 5):
+    elif (wrong == 5):
         print("\n+---+")
         print(" |  |")
         print(" O  |")
         print("    |")
         print("    |")
         print("   ___")
-    elif(wrong == 6):
+    elif (wrong == 6):
         print("\n+---+")
         print(" |  |")
         print(" O  |")
         print(" |  |")
         print("    |")
         print("   ___")
-    elif(wrong == 7):
+    elif (wrong == 7):
         print("\n+---+")
         print(" |  |")
         print(" O  |")
         print("/|  |")
         print("    |")
         print("   ___")
-    elif(wrong == 8):
+    elif (wrong == 8):
         print("\n+---+")
         print(" |  |")
         print(" O  |")
         print("/|\ |")
         print("    |")
         print("   ___")
-    elif(wrong == 9):
+    elif (wrong == 9):
         print("\n+---+")
         print(" |  |")
         print(" O  |")
         print("/|\ |")
         print("/   |")
         print("   ___")
-    elif(wrong == 10):
+    elif (wrong == 10):
         print("\n+---+")
         print(" |  |")
         print(" O  |")
@@ -218,7 +219,7 @@ def show_word(pickedLetters):
         if (char in pickedLetters):
             print(random_word[counter].upper(), end=" ")
             correct_letters += 1
-        else: 
+        else:
             print(" ", end=" ")
         counter += 1
     return pickedLetters
@@ -252,4 +253,52 @@ def verify_input(text, valid_values_list):
             print(f"Please enter a correct option: {str(valid_values_list)}")
     return input_value
 
+"""
+Running the game
+"""
+If _name_ == "__main__":
+    while (game_running):
+        random_word = random.choice(word_bank)
+        show_hangman(0)
+        for x in random_word:
+            print("_ ", end="")
+            word_length = len(random_word)
+            times_wrong = 0
+            guess_index = 0
+            letters_guessed = []
+            letters_right = 0
+            carry_on_playing = "no"
 
+            while (times_wrong != MAX_TURNS and
+            letters_right != word_length):
+
+            """
+            Show users possible letter inputs
+            """
+            show_letters_guessed = verify_input("\nPlease guess a letter: ",
+                                           ["a", "b", "c", "d", "e", "f", "g",
+                                            "h", "i", "j", "k", "l", "m", "n",
+                                            "o", "p", "q", "r", "s", "t", "u",
+                                            "v", "w", "x", "y", "z"])
+            """
+            Display the users guesses if correct or false,
+            upon failure, display the correct word to user.
+            """
+            letters_guessed.append(show_letters_guessed)
+            if check_guessed_word(show_letters_guessed, random_word) is False:
+                times_wrong += 1
+            letters_right = show_word(letters_guessed)
+            lines()
+            show_hangman(times_wrong)
+            print("Guesses left = {}".format(MAX_TURNS -
+            times_wrong))
+            print("Correct guess was = {}".format(letters_right))
+            if letters_right >= len(random_word):
+                print("\n\n Congratulations, You've Won!! \n\n")
+                break
+            elif times_wrong >= MAX_TURNS:
+                print("\n\n You have lost! The word was '" + random_word +
+                "', better luck next time!\n")
+
+        
+    
