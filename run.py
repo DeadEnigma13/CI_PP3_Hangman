@@ -1,5 +1,5 @@
 import random
-
+from colors import Color as Col
 MAX_TURNS = 10
 game_running = True
 word_bank = ["constitutional", "river", "president", "avenue", "game",
@@ -149,8 +149,28 @@ Running the game
 if __name__ == "__main__":
     while (game_running):
         random_word = random.choice(word_bank)
-        print("Welcome to Hangman, let's play!")
-        print("_____________________________________")
+        print(Col.BLUE + "Hello, Welcome To:")
+        print(" ")
+        print(Col.LOGO_R + " _    _")
+        print(Col.LOGO_R + "| |  | |")
+        print(Col.LOGO_R + "| |  | |")
+        print(Col.LOGO_R + "| |  | |      _       ___      _   ____")
+        print(Col.LOGO_R + "| |__| |     / \     |   \    | | / ___\ ")
+        print(Col.LOGO_R + "|  __  |    / _ \    | |\ \   | |/ /")
+        print(Col.LOGO_R + "| |  | |   / /_\ \   | | \ \  | || |  ___")
+        print(Col.LOGO_R + "| |  | |  /  ___  \  | |  \ \ | || | |__ |")
+        print(Col.LOGO_R + "| |  | | /  /   \  \ | |   \ \| |\  \__/ /")
+        print(Col.LOGO_R + "|_|  |_|/__/     \__\|_|    \___| \_____/")
+        print(Col.LOGO_R + " ___      ___       _       ___      _")
+        print(Col.LOGO_R + "|   \    /   |     / \     |   \    | |")
+        print(Col.LOGO_R + "| |\ \  / /| |    / _ \    | |\ \   | |")
+        print(Col.LOGO_R + "| | \ \/ / | |   / /_\ \   | | \ \  | |")
+        print(Col.LOGO_R + "| |  \__/  | |  /  ___  \  | |  \ \ | |")
+        print(Col.LOGO_R + "| |        | | /  /   \  \ | |   \ \| |")
+        print(Col.LOGO_R + "|_|        |_|/__/     \__\|_|    \___|")
+        print(" ")
+        print(" ")
+        print(" ")
         show_hangman(0)
         for x in random_word:
             print("_ ", end="")
