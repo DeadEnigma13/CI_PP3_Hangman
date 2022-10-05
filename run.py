@@ -93,6 +93,9 @@ def rules():
     print("The rules of the game are simple, a random word will be " +
           "generated simply type in any letter to guess the word")
     time.sleep(1)
+    print("Keep guessing a letter until you have" +
+          "guessed the word or ran out of guesses")
+    time.sleep(1)
     print(" ")
     seperate_lines()
     input("Press any key to exit...\n")
