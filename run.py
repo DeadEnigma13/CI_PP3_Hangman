@@ -297,7 +297,7 @@ if __name__ == "__main__":
             show_hangman(times_wrong)
             print("Guesses left = {}".format(MAX_TURNS -
                                              times_wrong))
-            print("Correct guess was = {}".format(letters_right))
+            print("Correct guess = {}".format(letters_right))
             if letters_right >= len(random_word):
                 print("\n\n Congratulations, You've Won!! \n\n")
                 break
