@@ -300,5 +300,13 @@ If _name_ == "__main__":
                 print("\n\n You have lost! The word was '" + random_word +
                 "', better luck next time!\n")
 
-        
+        """
+        Allow user to restart game or start with a new word
+        """
+        play_again = ask_input("\n Do you want to play again? (Y/N) ",
+                               ['y', 'yes', 'yeah', 'n', 'no', 'nope'])
+        if play_again in ['y', 'yes', 'yeah']:
+            game_running = True
+        else:
+            game_running = False
     
