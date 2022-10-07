@@ -4,4 +4,5 @@
 
 [Live website](https://hangman-ci-game.herokuapp.com/)
 
+![Mockup Image](docs/hangman-home.png)
 
