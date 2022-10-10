@@ -121,6 +121,7 @@ Note if the user wins, the game will automatically return to the main menu.
 ## Technologies Used
 
 ### Languages
+- [Python](https://www.python.org/) programming language for the logic of the program
 
 ### Frameworks & Tools
 
