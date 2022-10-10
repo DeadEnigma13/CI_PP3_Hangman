@@ -80,22 +80,22 @@ def show_hangman(wrong):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
         print(Col.GREEN + " O  |")
-        print(Col.GREEN + "/|\ |")
+        print(Col.GREEN + r"/|\ |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
     elif (wrong == 9):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
         print(Col.GREEN + " O  |")
-        print(Col.GREEN + "/|\ |")
+        print(Col.GREEN + r"/|\ |")
         print(Col.GREEN + "/   |")
         print(Col.GREEN + "   ___")
     elif (wrong == 10):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
         print(Col.GREEN + " O  |")
-        print(Col.GREEN + "/|\ |")
-        print(Col.GREEN + "/ \ |")
+        print(Col.GREEN + r"/|\ |")
+        print(Col.GREEN + r"/ \ |")
         print(Col.GREEN + "   ___")
 
 
@@ -154,7 +154,6 @@ def main_screen() -> str:
     print(Col.BLUE + "Pick an option to continue...")
     continue_options = "1). View rules of game\n2). Play Game\n"
     continue_options_selected = input(continue_options)
-    
     # Confirm if answer is either 1 or 2
     while continue_options_selected not in ("1", "2"):
         print(Col.YELLOW + "Please choose option one or two to move on:")
@@ -212,23 +211,23 @@ if __name__ == "__main__":
         random_word = random.choice(word_bank)
         print(Col.BLUE + "Hello, Welcome To:")
         print(" ")
-        print(Col.LOGO_R + " _    _")
-        print(Col.LOGO_R + "| |  | |")
-        print(Col.LOGO_R + "| |  | |")
-        print(Col.LOGO_R + "| |  | |      _       ___      _   ____")
-        print(Col.LOGO_R + "| |__| |     / \     |   \    | | / ___\ ")
-        print(Col.LOGO_R + "|  __  |    / _ \    | |\ \   | |/ /")
-        print(Col.LOGO_R + "| |  | |   / /_\ \   | | \ \  | || |  ___")
-        print(Col.LOGO_R + "| |  | |  /  ___  \  | |  \ \ | || | |__ |")
-        print(Col.LOGO_R + "| |  | | /  /   \  \ | |   \ \| |\  \__/ /")
-        print(Col.LOGO_R + "|_|  |_|/__/     \__\|_|    \___| \_____/")
-        print(Col.LOGO_R + " ___      ___       _       ___      _")
-        print(Col.LOGO_R + "|   \    /   |     / \     |   \    | |")
-        print(Col.LOGO_R + "| |\ \  / /| |    / _ \    | |\ \   | |")
-        print(Col.LOGO_R + "| | \ \/ / | |   / /_\ \   | | \ \  | |")
-        print(Col.LOGO_R + "| |  \__/  | |  /  ___  \  | |  \ \ | |")
-        print(Col.LOGO_R + "| |        | | /  /   \  \ | |   \ \| |")
-        print(Col.LOGO_R + "|_|        |_|/__/     \__\|_|    \___|")
+        print(Col.LOGO_R + r" _    _")
+        print(Col.LOGO_R + r"| |  | |")
+        print(Col.LOGO_R + r"| |  | |")
+        print(Col.LOGO_R + r"| |  | |      _       ___      _   ____")
+        print(Col.LOGO_R + r"| |__| |     / \     |   \    | | / ___\ ")
+        print(Col.LOGO_R + r"|  __  |    / _ \    | |\ \   | |/ /")
+        print(Col.LOGO_R + r"| |  | |   / /_\ \   | | \ \  | || |  ___")
+        print(Col.LOGO_R + r"| |  | |  /  ___  \  | |  \ \ | || | |__ |")
+        print(Col.LOGO_R + r"| |  | | /  /   \  \ | |   \ \| |\  \__/ /")
+        print(Col.LOGO_R + r"|_|  |_|/__/     \__\|_|    \___| \_____/")
+        print(Col.LOGO_R + r" ___      ___       _       ___      _")
+        print(Col.LOGO_R + r"|   \    /   |     / \     |   \    | |")
+        print(Col.LOGO_R + r"| |\ \  / /| |    / _ \    | |\ \   | |")
+        print(Col.LOGO_R + r"| | \ \/ / | |   / /_\ \   | | \ \  | |")
+        print(Col.LOGO_R + r"| |  \__/  | |  /  ___  \  | |  \ \ | |")
+        print(Col.LOGO_R + r"| |        | | /  /   \  \ | |   \ \| |")
+        print(Col.LOGO_R + r"|_|        |_|/__/     \__\|_|    \___|")
         print(" ")
         print(" ")
         print(" ")
@@ -243,7 +242,6 @@ if __name__ == "__main__":
         carry_on_playing = "no"
         main_screen()
         rules()
-        
         while (times_wrong != MAX_TURNS and letters_right != word_length):
             """
             Show users possible letter inputs
