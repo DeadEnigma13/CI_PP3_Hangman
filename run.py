@@ -151,14 +151,13 @@ def main_screen() -> str:
     user to select from, view game rules or start
     game
     """
-   
     print(Col.BLUE + "Pick an option to continue...")
     continue_options = "1). View rules of game\n2). Play Game\n"
     continue_options_selected = input(continue_options)
     
     # Confirm if answer is either 1 or 2
     while continue_options_selected not in ("1", "2"):
-        print(Col.YELLOW + "Please choose option one or 2 to move on:")
+        print(Col.YELLOW + "Please choose option one or two to move on:")
         continue_options_selected = input(continue_options)
 
     if continue_options_selected == "1":
@@ -178,14 +177,14 @@ def rules():
     print(Col.RED + "Game Rules:")
     print("The rules of the game are simple, a random word will be " +
           "generated simply type in any letter to guess the word")
-    print("Keep guessing a letter until you have" +
+    print("Keep guessing a letter until you have " +
           "guessed the word or ran out of guesses")
     print(" ")
-    input("Press any key to exit...\n")
+    input(Col.RED + "Press any key to exit...\n")
     main_screen()
 
 
-def start_hangman() -> str:
+def start_hangman():
     """
     The game will check if user has played before
     """
@@ -198,10 +197,10 @@ def start_hangman() -> str:
         answered = input(answer)
 
     if answered == "1" or answered == "y":
-        game_running = True
+        game_running
 
     elif answered == "2" or answered == "n":
-        game_running = True
+        rules()
 
     return answered
 
@@ -245,7 +244,6 @@ if __name__ == "__main__":
         carry_on_playing = "no"
         main_screen()
         rules()
-
 
         while (times_wrong != MAX_TURNS and letters_right != word_length):
             """
