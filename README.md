@@ -69,3 +69,39 @@ There is no specific target audience as this game can be played by everyone. How
 
 ### User Manual
 
+<details><summary>Click here to view game instructions</summary>
+
+#### Main Menu
+On the main menu, users are presented with a custom made Hangman title. Below the title graphic there are 2 options for the user to choose from.
+Operation: Input a numeric value or y/n and press enter.
+1. View game rules
+2. Play game
+
+If at any point the user has inputted an incorrect value, the user will be prompted to try again.
+
+#### Game Rules
+With the game rules option, the users are presented with a short message about the game rules, once read the users can return back to the main menu.
+Operation: Press any key and hit enter.
+
+#### Play
+With the play game option, users are asked if they have played the game before. 
+Operation: Input a numeric value.
+The extra inputs for available are 'y' for yes or 'n' for no.
+1. Yes
+2. No
+
+#### Play Again
+At the end of the game if the user wins or loses they can select if they want to play again.
+Operation: Input a letter value.
+1. Y
+2. N
+
+#### Go Back To Main Menu
+At the end of game the user can return to the main menu if they win or lose.
+Operation: Input a letter value.
+1. Yes
+2. No
+
+Note if the user wins, the game will automatically return to the main menu.
+
+</details>
