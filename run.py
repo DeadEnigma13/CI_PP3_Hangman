@@ -281,7 +281,7 @@ if __name__ == "__main__":
             if play_again in ['y', 'yes', 'yeah']:
                 game_running = True
             else:
-                game_running = False
+                main_screen()
                 """
                 Game ending message
                 """
