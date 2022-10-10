@@ -105,3 +105,7 @@ Operation: Input a letter value.
 Note if the user wins, the game will automatically return to the main menu.
 
 </details>
+
+[Back to Table of Contents](#table-of-contents)
+
+## User Stories
