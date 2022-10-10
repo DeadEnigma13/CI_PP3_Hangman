@@ -214,7 +214,16 @@ This application has been deployed from GitHub to Heroku by following the steps:
 ## Credits
 
 ### Images
+- [Flaticon](https://www.flaticon.com/free-icon/connect_1707222) was used for the website favicon
 
 ### Code
-
+- [Pypi](https://pypi.org/project/colorama/) was used to help with the colour codes for Colorama colours.
+- Code Institute - for git template IDE and how to deploy to Heroku.
+- [Ozzmaker](https://ozzmaker.com/add-colour-to-text-in-python/) and [Stackabuse](https://stackabuse.com/how-to-print-colored-text-in-python/) for help with how to add coloured text into Python.
+- [Shaun Halverson](https://www.youtube.com/watch?v=pFvSb7cb_Us&t=617s&ab_channel=ShaunHalverson) I used part of Shaun's code to make the hangman design and how to implement MAX_TURNS
+- 
 ## Acknowledgements
+I would like to thank everyone who supported me in the development of this project:
+- My mentor Mo for professional guidance, helpful feedback and words of encouragement whilst creating the project. Also, for encouraging me to learn about the unit test and including it within this project.
+- My partner for his support and playing/testing the game with me
+- Code Institute community on Slack for resources and support. A special thank you to @Wozza_5P , @Aldwin Arriola , @Matthew Hobbs_Hurrell_5P for helping with my errors.
