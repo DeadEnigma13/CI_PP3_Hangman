@@ -145,6 +145,67 @@ def verify_input(text, valid_values_list):
     return input_value
 
 
+def main_screen() -> str:
+    """
+    The game will load two possible options for the
+    user to select from, view game rules or start
+    game
+    """
+   
+    print(Col.BLUE + "Pick an option to continue...")
+    continue_options = "1). View rules of game\n2). Play Game\n"
+    continue_options_selected = input(continue_options)
+    
+    # Confirm if answer is either 1 or 2
+    while continue_options_selected not in ("1", "2"):
+        print(Col.YELLOW + "Please choose option one or 2 to move on:")
+        continue_options_selected = input(continue_options)
+
+    if continue_options_selected == "1":
+        rules()
+
+    elif continue_options_selected == "2":
+        start_hangman()
+
+    return continue_options_selected
+
+
+def rules():
+    """
+    Display rules of the game which
+    user can exit by pressing any key
+    """
+    print(Col.RED + "Game Rules:")
+    print("The rules of the game are simple, a random word will be " +
+          "generated simply type in any letter to guess the word")
+    print("Keep guessing a letter until you have" +
+          "guessed the word or ran out of guesses")
+    print(" ")
+    input("Press any key to exit...\n")
+    main_screen()
+
+
+def start_hangman() -> str:
+    """
+    The game will check if user has played before
+    """
+    print(Col.GREEN + "Have you played this game before?")
+    answer = "1). Yes \n2). No\n"
+    answered = input(answer)
+    # Confirm if answer is either Yes or No
+    while answered not in ("1", "y", "2", "n"):
+        print(Col.CYAN + "Please select one of the options shown:")
+        answered = input(answer)
+
+    if answered == "1" or answered == "y":
+        game_running = True
+
+    elif answered == "2" or answered == "n":
+        game_running = True
+
+    return answered
+
+
 """
 Running the game
 """
@@ -182,6 +243,9 @@ if __name__ == "__main__":
         letters_guessed = []
         letters_right = 0
         carry_on_playing = "no"
+        main_screen()
+        rules()
+
 
         while (times_wrong != MAX_TURNS and letters_right != word_length):
             """
