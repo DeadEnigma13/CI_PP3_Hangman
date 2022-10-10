@@ -197,8 +197,7 @@ def start_hangman():
         answered = input(answer)
 
     if answered == "1" or answered == "y":
-        game_running
-
+        __name__
     elif answered == "2" or answered == "n":
         rules()
 
@@ -244,7 +243,7 @@ if __name__ == "__main__":
         carry_on_playing = "no"
         main_screen()
         rules()
-
+        
         while (times_wrong != MAX_TURNS and letters_right != word_length):
             """
             Show users possible letter inputs
