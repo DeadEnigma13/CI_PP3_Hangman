@@ -241,7 +241,6 @@ if __name__ == "__main__":
         letters_right = 0
         carry_on_playing = "no"
         main_screen()
-        rules()
         while (times_wrong != MAX_TURNS and letters_right != word_length):
             """
             Show users possible letter inputs
