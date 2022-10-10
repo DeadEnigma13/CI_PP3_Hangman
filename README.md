@@ -221,7 +221,7 @@ This application has been deployed from GitHub to Heroku by following the steps:
 - Code Institute - for git template IDE and how to deploy to Heroku.
 - [Ozzmaker](https://ozzmaker.com/add-colour-to-text-in-python/) and [Stackabuse](https://stackabuse.com/how-to-print-colored-text-in-python/) for help with how to add coloured text into Python.
 - [Shaun Halverson](https://www.youtube.com/watch?v=pFvSb7cb_Us&t=617s&ab_channel=ShaunHalverson) I used part of Shaun's code to make the hangman design and how to implement MAX_TURNS
-- 
+- [Python Tutorial](https://python.tutorialink.com/python-lint-issue-invalid-escape-sequence/) for helping me with invalid escape sequence error.
 ## Acknowledgements
 I would like to thank everyone who supported me in the development of this project:
 - My mentor Mo for professional guidance, helpful feedback and words of encouragement whilst creating the project. Also, for encouraging me to learn about the unit test and including it within this project.
