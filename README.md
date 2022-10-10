@@ -40,3 +40,19 @@ The objective of the game is to correctly guess the randomly generated word befo
   - [Deployment](#deployment)
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
+
+## Project Goals
+
+### User Goals
+
+- Play a fun easy game.
+- Read the rules before playing.
+- Be able to see whether you win or lose
+
+### Site Owner Goals
+
+- Create a game that is user to play for users
+- Ensure that users can understand the rules of the game
+- Give users feedback whilst playing
+
+## User Experienec
