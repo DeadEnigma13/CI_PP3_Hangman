@@ -124,11 +124,23 @@ Note if the user wins, the game will automatically return to the main menu.
 
 ### Frameworks & Tools
 
+- [Diagrams.net](https://app.diagrams.net/) was used to draw program flowchart
+- [Font Awesome](https://fontawesome.com/) - icons from Font Awesome were used in the footer below the program terminal
+- [Git](https://git-scm.com/) was used for version control within VSCode to push the code to GitHub
+- [GitHub](https://github.com/) was used as a remote repository to store project code
+- [Heroku Platform](https://dashboard.heroku.com/) was used to deploy the project into live environment
+- [PEP8](http://pep8online.com/) was used to check my code against Python conventions
+- [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
+VSCode was used to write the project code using Code Institute template
+
 ### Libraries
 
+
 #### Python Libaries
+- random - used to randomly generate a random word with every new game.
 
 #### Third-Party Libraries
+- [colorama](https://pypi.org/project/colorama/) - JUSTIFICATION: I used this library to add color to the terminal and enhance user experience. I used Red, Green, Blue and Cyan to help users read the displayed information.
 
 ## Features
 
