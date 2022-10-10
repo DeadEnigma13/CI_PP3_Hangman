@@ -162,6 +162,15 @@ VSCode was used to write the project code using Code Institute template
 [Back to Table Of Contents](#table-of-contents)
 
 ## Validation
+[PEP8 Validation Service](http://pep8online.com/) was used to check the code for PEP8 requirements. All the code passes with no errors and 0 warnings showing.
+
+<details><summary>PEP8 check for run.py</summary>
+<img src="docs/validation/pep8-validation-run.py.png">
+</details>
+
+<details><summary>PEP8 check for colors.py</summary>
+<img src="docs/validation/pep8-validation-colors.py.png">
+</details>
 
 ## Manual Testing
 
