@@ -109,3 +109,67 @@ Note if the user wins, the game will automatically return to the main menu.
 [Back to Table of Contents](#table-of-contents)
 
 ## User Stories
+
+### Users
+
+### Site Owner
+
+## Technical Design
+
+### Flowchart
+
+## Technologies Used
+
+### Languages
+
+### Frameworks & Tools
+
+### Libraries
+
+#### Python Libaries
+
+#### Third-Party Libraries
+
+## Features
+
+### Main Menu
+
+### Game Rules
+
+### Play Game Options
+
+### Game
+
+### End Game Options
+
+### Quit Game Message
+
+### Win/Lose Message
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Validation
+
+## Manual Testing
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Bugs
+
+## Deployment
+
+### Heroku
+
+### Forking the GitHub Repository
+
+### Making a Local Clone
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Credits
+
+### Images
+
+### Code
+
+## Acknowledgements
