@@ -55,4 +55,17 @@ The objective of the game is to correctly guess the randomly generated word befo
 - Ensure that users can understand the rules of the game
 - Give users feedback whilst playing
 
-## User Experienec
+## User Experience
+
+### Target Audience
+
+There is no specific target audience as this game can be played by everyone. However I would recommend anyone above the age of 8 to play this game.
+
+### User Requirements and Expectations
+
+- A simple, error-free game
+- Easy navigation
+- Feedback on game results
+
+### User Manual
+
