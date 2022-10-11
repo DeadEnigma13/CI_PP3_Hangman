@@ -221,6 +221,32 @@ VSCode was used to write the project code using Code Institute template
 
 ## Manual Testing
 
+<details><summary>See user stories testing</summary>
+
+1. I want to have clear options to choose from in the main menu
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Main menu | Select option 1 | Users are presented with game rules | Works as expected |
+| Main menu | Select option 2 | Users are asked if they played the game before | Works as expected |
+
+
+
+2. I want to know what the rules are for the game
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Main menu | Select option 1 | Users are presented with game rules | Works as expected |
+
+
+
+3. I want to receive feedback when playing the game
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Feedback | Please enter a correct input | Users are asked to input a correct option when guessing a letter | Works as expected |
+
+</details>
 
 [Back to Table Of Contents](#table-of-contents)
 
