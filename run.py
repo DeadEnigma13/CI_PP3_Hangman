@@ -7,7 +7,7 @@ game_running = True
 word_bank = ["constitutional", "river", "president", "avenue", "game",
              "developer", "engineer", "mathematics", "gun", "robbery",
              "supplementary", "scene", "tree", "conscious", "school",
-             "sports", "football", "wrestling", "dangerous", "motorsport"
+             "sports", "football", "wrestling", "dangerous", "motorsport",
              "jesus", "plastic", "therapy", "love", "professor", "ball",
              "negligence", "discrimination", "representative", "glide"]
 
