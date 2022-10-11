@@ -1,6 +1,5 @@
 import random
 from colors import Color as Col
-import validation as val
 
 
 MAX_TURNS = 10
