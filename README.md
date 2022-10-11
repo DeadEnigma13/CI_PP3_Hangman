@@ -131,6 +131,11 @@ Note if the user wins, the game will automatically return to the main menu.
 
 ### Flowchart
 
+The following flowchart shows the structure and logic of the game.
+<details><summary>Flowchart</summary>
+<img src="docs/hangman-flowchart.png">
+</details>
+
 ## Technologies Used
 
 ### Languages
