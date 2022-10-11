@@ -221,9 +221,17 @@ VSCode was used to write the project code using Code Institute template
 
 ## Manual Testing
 
+
 [Back to Table Of Contents](#table-of-contents)
 
 ## Bugs
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| When selecting 'yes' during have you played before, the rules would show anyways | Removed rules code from __name__ |
+| When selecting 'no' after being asked if you want to play again, the game would carry on playing | Add code to return back to main menu |
+| LinkedIn icon would not take user to linkedin page | Add pointer cursor and we copied page link |
+| There were quite a few errors and warnings related to exceeded number of characters in line, whitespace within a blank line, trailing white spaces or missing white spaces around operators | Split the comments or print functions into two separate rows maintaining correct indentation. Followed a guidance within pep8 online tool and corrected all warnings and errors |
 
 ## Deployment
 
