@@ -112,7 +112,20 @@ Note if the user wins, the game will automatically return to the main menu.
 
 ### Users
 
+1. I want to have clear options to choose from in the main menu
+2. I want to know what the rules are for the game
+3. I want to receive feedback when playing the game
+4. I want to know if I have won or lost
+5. I want to play the game again after winning or losing
+
 ### Site Owner
+
+6. I want users to have a good experience whilst playing the game
+7. I want users to have easy options when selecting through the main menu
+8. I want users to know when they have accidently selected the wrong option/input.
+9. I want users to know what the correct inputs are when playing the game.
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Technical Design
 
