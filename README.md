@@ -124,6 +124,7 @@ Note if the user wins, the game will automatically return to the main menu.
 7. I want users to have easy options when selecting through the main menu
 8. I want users to know when they have accidently selected the wrong option/input.
 9. I want users to know what the correct inputs are when playing the game.
+10. I want users to quit the game when they want
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -165,17 +166,45 @@ VSCode was used to write the project code using Code Institute template
 
 ### Main Menu
 
+- Provides user with graphic welcome message
+- Gives users 2 options to select, view game rules or start game
+- User stories covered: 1, 7
+
 ### Game Rules
 
+- Display clear game rules
+- Allow users to return to the main menu once read
+- User stories covered: 2
 ### Play Game Options
+
+- Gives user option to play game or read rules
+- Asks user if they have played before
+- User stories covered: 1
 
 ### Game
 
+- Displays random word as blank
+- Shows correct letters guessed
+- Displays part of hanging man after incorrect guess
+- Gives feedback when user has inputted incorrectly
+- Gives option to carry on or quit
+- User stories covered: 3, 6, 8, 9
+
 ### End Game Options
+
+- Asks user if they want to play again
+- Display win or lose message at the end of the game
+- User stories covered: 4, 5
 
 ### Quit Game Message
 
+- Displays message after every go to quit or carry on
+- User stories covered: 3, 10
+
 ### Win/Lose Message
+
+- Display win or lose message
+- User stories covered: 4, 5
 
 [Back to Table Of Contents](#table-of-contents)
 
