@@ -155,12 +155,13 @@ VSCode was used to write the project code using Code Institute template
 
 ### Libraries
 
-
 #### Python Libaries
 - random - used to randomly generate a random word with every new game.
 
 #### Third-Party Libraries
 - [colorama](https://pypi.org/project/colorama/) - JUSTIFICATION: I used this library to add color to the terminal and enhance user experience. I used Red, Green, Blue and Cyan to help users read the displayed information.
+
+[Back to Table Of Contents](#table-of-contents)
 
 ## Features
 
