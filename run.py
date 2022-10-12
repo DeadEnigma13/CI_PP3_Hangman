@@ -41,6 +41,7 @@ def show_hangman(wrong):
         print(Col.GREEN + "    |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 3):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + "    |")
@@ -48,6 +49,7 @@ def show_hangman(wrong):
         print(Col.GREEN + "    |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 4):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + "|   |")
@@ -55,6 +57,7 @@ def show_hangman(wrong):
         print(Col.GREEN + "    |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 5):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
@@ -62,6 +65,7 @@ def show_hangman(wrong):
         print(Col.GREEN + "    |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 6):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
@@ -69,6 +73,7 @@ def show_hangman(wrong):
         print(Col.GREEN + " |  |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 7):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
@@ -76,6 +81,7 @@ def show_hangman(wrong):
         print(Col.GREEN + "/|  |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 8):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
@@ -83,6 +89,7 @@ def show_hangman(wrong):
         print(Col.GREEN + r"/|\ |")
         print(Col.GREEN + "    |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 9):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
@@ -90,6 +97,7 @@ def show_hangman(wrong):
         print(Col.GREEN + r"/|\ |")
         print(Col.GREEN + "/   |")
         print(Col.GREEN + "   ___")
+        print(" ")
     elif (wrong == 10):
         print(Col.GREEN + "\n+---+")
         print(Col.GREEN + " |  |")
@@ -97,6 +105,7 @@ def show_hangman(wrong):
         print(Col.GREEN + r"/|\ |")
         print(Col.GREEN + r"/ \ |")
         print(Col.GREEN + "   ___")
+        print(" ")
 
 
 def show_word(pickedletters):
@@ -239,7 +248,6 @@ if __name__ == "__main__":
         guess_index = 0
         letters_guessed = []
         letters_right = 0
-        carry_on_playing = "no"
         main_screen()
         while (times_wrong != MAX_TURNS and letters_right != word_length):
             """
@@ -278,7 +286,7 @@ if __name__ == "__main__":
             if play_again in ['y', 'yes', 'yeah']:
                 game_running = True
             else:
-                main_screen()
+                exit()
                 """
                 Game ending message
                 """

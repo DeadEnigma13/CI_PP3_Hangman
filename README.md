@@ -314,6 +314,7 @@ VSCode was used to write the project code using Code Institute template
 | When selecting 'no' after being asked if you want to play again, the game would carry on playing | Add code to return back to main menu |
 | LinkedIn icon would not take user to linkedin page | Add pointer cursor and we copied page link |
 | There were quite a few errors and warnings related to exceeded number of characters in line, whitespace within a blank line, trailing white spaces or missing white spaces around operators | Split the comments or print functions into two separate rows maintaining correct indentation. Followed a guidance within pep8 online tool and corrected all warnings and errors |
+| Bottom part of the hangman wouldn't show | Add an extra print(" ") line to the bottom of each print out section |
 
 ## Deployment
 
