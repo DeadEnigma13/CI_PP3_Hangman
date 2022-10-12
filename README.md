@@ -122,8 +122,8 @@ Note if the user wins, the game will automatically return to the main menu.
 
 6. I want users to have a good experience whilst playing the game
 7. I want users to have easy options when selecting through the main menu
-8. I want users to know when they have accidently selected the wrong option/input.
-9. I want users to know what the correct inputs are when playing the game.
+8. I want users to know when they have accidently selected the wrong option/input
+9. I want users to know what the correct inputs are when playing the game
 10. I want users to quit the game when they want
 
 [Back to Table of Contents](#table-of-contents)
@@ -245,6 +245,62 @@ VSCode was used to write the project code using Code Institute template
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Feedback | Please enter a correct input | Users are asked to input a correct option when guessing a letter | Works as expected |
+
+
+
+4. I want to know if I have won or lost
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Win/Lose message | Win or lose the game | Display the appropriate message when user win or loses | Works as expected |
+
+
+
+5. I want to play the game again after winning or losing
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Restart game after win/lose | Reloads the main menu after win or lose | Game reloads to the main menu when game has ended | Works as expected |
+
+
+6. I want users to have a good experience whilst playing the game
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Easy UI and easy to understand game mechanics and rules | Easy instructions and easy to read information | Easy to follow instructions and game runs and displays messages to a readable level | Works as expected |
+
+
+
+7. I want users to have easy options when selecting through the main menu
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Multiple options to select | Options in main menu by selecting correct input | When user selects '1' or '2' they are taken to a different section of the game | Works as expected |
+
+
+
+8. I want users to know when they have accidently selected the wrong option/input
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Correct Input message | Enter an incorrect input | Message displays when user has inputted a wrong action/input | Works as expected |
+
+
+
+9. I want users to know what the correct inputs are when playing the game
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Display appropriate inputs | Press a wrong input | Select a wrong input, message appears to tell user the appropriate inputs | Works as expected |
+
+
+10. I want users to quit the game when they want
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Exiting the game | Can exit the game at any point | User can say no after being asked if they want to carry on after each guess | Works as expected | 
+
+
 
 </details>
 
