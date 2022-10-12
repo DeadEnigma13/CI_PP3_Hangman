@@ -170,16 +170,29 @@ VSCode was used to write the project code using Code Institute template
 - Gives users 2 options to select, view game rules or start game
 - User stories covered: 1, 7
 
+<details><summary>Main Menu Screenshot</summary>
+<img src="docs/features/main-menu.png">
+</details>
+
 ### Game Rules
 
 - Display clear game rules
 - Allow users to return to the main menu once read
 - User stories covered: 2
+
+<details><summary>Rules Screenshot</summary>
+<img src="docs/features/rules.png">
+</details>
+
 ### Play Game Options
 
 - Gives user option to play game or read rules
 - Asks user if they have played before
 - User stories covered: 1
+
+<details><summary>Play Game Screenshot</summary>
+<img src="docs/features/play-game.png">
+</details>
 
 ### Game
 
@@ -190,21 +203,38 @@ VSCode was used to write the project code using Code Institute template
 - Gives option to carry on or quit
 - User stories covered: 3, 6, 8, 9
 
+<details><summary>Game Screenshot</summary>
+<img src="docs/features/game.png">
+</details>
+
 ### End Game Options
 
 - Asks user if they want to play again
 - Display win or lose message at the end of the game
 - User stories covered: 4, 5
 
+<details><summary>End Game Screenshot</summary>
+<img src="docs/features/end-game.png">
+</details>
+
 ### Quit Game Message
 
 - Displays message after every go to quit or carry on
 - User stories covered: 3, 10
 
+<details><summary>Quit Game Screenshot</summary>
+<img src="docs/features/quit-game-message.png">
+</details>
+
 ### Win/Lose Message
 
 - Display win or lose message
 - User stories covered: 4, 5
+
+<details><summary>Win/Lose Screenshot</summary>
+<img src="docs/features/win-message.png">
+<img src="docs/features/loss-message.png">
+</details>
 
 [Back to Table Of Contents](#table-of-contents)
 
