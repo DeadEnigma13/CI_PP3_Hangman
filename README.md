@@ -378,6 +378,8 @@ VSCode was used to write the project code using Code Institute template
 | There were quite a few errors and warnings related to exceeded number of characters in line, whitespace within a blank line, trailing white spaces or missing white spaces around operators | Split the comments or print functions into two separate rows maintaining correct indentation. Followed a guidance within pep8 online tool and corrected all warnings and errors |
 | Bottom part of the hangman wouldn't show | Add an extra print(" ") line to the bottom of each print out section |
 
+[Back to Table Of Contents](#table-of-contents)
+
 ## Deployment
 
 ### Heroku
@@ -427,3 +429,5 @@ I would like to thank everyone who supported me in the development of this proje
 - My mentor Mo for professional guidance, helpful feedback and words of encouragement whilst creating the project. Also, for encouraging me to learn about the unit test and including it within this project.
 - My partner for his support and playing/testing the game with me
 - Code Institute community on Slack for resources and support. A special thank you to @Wozza_5P , @Aldwin Arriola , @Matthew Hobbs_Hurrell_5P for helping with my errors.
+
+[Back to Table Of Contents](#table-of-contents)
