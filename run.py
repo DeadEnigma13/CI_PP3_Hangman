@@ -287,7 +287,4 @@ if __name__ == "__main__":
                 game_running = True
             else:
                 exit()
-                """
-                Game ending message
-                """
                 print("You selected no, Your game has ended!")

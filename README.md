@@ -230,6 +230,9 @@ VSCode was used to write the project code using Code Institute template
 | Main menu | Select option 1 | Users are presented with game rules | Works as expected |
 | Main menu | Select option 2 | Users are asked if they played the game before | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-1.png">
+</details>
 
 
 2. I want to know what the rules are for the game
@@ -238,6 +241,9 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Main menu | Select option 1 | Users are presented with game rules | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-2.png">
+</details>
 
 
 3. I want to receive feedback when playing the game
@@ -246,6 +252,9 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Feedback | Please enter a correct input | Users are asked to input a correct option when guessing a letter | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-3.png">
+</details>
 
 
 4. I want to know if I have won or lost
@@ -254,6 +263,10 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Win/Lose message | Win or lose the game | Display the appropriate message when user win or loses | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-4-won.png">
+<img src="docs/testing/testing-4-loss.png">
+</details>
 
 
 5. I want to play the game again after winning or losing
@@ -262,6 +275,10 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Restart game after win/lose | Reloads the main menu after win or lose | Game reloads to the main menu when game has ended | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-5.png">
+</details>
+
 
 6. I want users to have a good experience whilst playing the game
 
@@ -269,6 +286,9 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Easy UI and easy to understand game mechanics and rules | Easy instructions and easy to read information | Easy to follow instructions and game runs and displays messages to a readable level | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-6.png">
+</details>
 
 
 7. I want users to have easy options when selecting through the main menu
@@ -277,6 +297,9 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Multiple options to select | Options in main menu by selecting correct input | When user selects '1' or '2' they are taken to a different section of the game | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-7.png">
+</details>
 
 
 8. I want users to know when they have accidently selected the wrong option/input
@@ -285,6 +308,9 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Correct Input message | Enter an incorrect input | Message displays when user has inputted a wrong action/input | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-8.png">
+</details>
 
 
 9. I want users to know what the correct inputs are when playing the game
@@ -293,6 +319,10 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Display appropriate inputs | Press a wrong input | Select a wrong input, message appears to tell user the appropriate inputs | Works as expected |
 
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-9.png">
+</details>
+
 
 10. I want users to quit the game when they want
 
@@ -300,7 +330,9 @@ VSCode was used to write the project code using Code Institute template
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Exiting the game | Can exit the game at any point | User can say no after being asked if they want to carry on after each guess | Works as expected | 
 
-
+<details><summary>Testing Screenshot</summary>
+<img src="docs/testing/testing-10.png">
+</details>
 
 </details>
 
