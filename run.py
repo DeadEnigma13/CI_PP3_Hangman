@@ -9,7 +9,8 @@ word_bank = ["constitutional", "river", "president", "avenue", "game",
              "supplementary", "scene", "tree", "conscious", "school",
              "sports", "football", "wrestling", "dangerous", "motorsport",
              "jesus", "plastic", "therapy", "love", "professor", "ball",
-             "negligence", "discrimination", "representative", "glide"]
+             "negligence", "discrimination", "representative", "glide",
+             "yellow", "queen"]
 
 """
 Choose a random word
