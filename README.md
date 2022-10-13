@@ -421,7 +421,7 @@ This application has been deployed from GitHub to Heroku by following the steps:
 
 ### Code
 - [Pypi](https://pypi.org/project/colorama/) was used to help with the colour codes for Colorama colours.
-- Code Institute - for git template IDE and how to deploy to Heroku.
+- [Code Institute](https://codeinstitute.net/) - for git template IDE and how to deploy to Heroku.
 - [Ozzmaker](https://ozzmaker.com/add-colour-to-text-in-python/) and [Stackabuse](https://stackabuse.com/how-to-print-colored-text-in-python/) for help with how to add coloured text into Python.
 - [Shaun Halverson](https://www.youtube.com/watch?v=pFvSb7cb_Us&t=617s&ab_channel=ShaunHalverson) I used part of Shaun's code to make the hangman design and how to implement MAX_TURNS
 - [Python Tutorial](https://python.tutorialink.com/python-lint-issue-invalid-escape-sequence/) for helping me with invalid escape sequence error.
